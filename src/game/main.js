@@ -11,10 +11,10 @@ const config = {
     type: AUTO,
     width: 1024,
     height: 768,
-    Physics: {
+    physics: {
         default: 'arcade',
         arcade: {
-            gravity: {y: 300}
+            gravity: {y: 1000}
         }
     },
     parent: 'game-container',
@@ -31,6 +31,8 @@ const config = {
         GameOver
     ]
 };
+
+
 
 const StartGame = (parent) => {
 
